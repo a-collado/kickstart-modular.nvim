@@ -12,6 +12,8 @@ return {
           'mypy',
           'pylint',
         },
+        javascript = { 'eslint' },
+        typescript = { 'eslint' },
       }
 
       -- To allow other plugins to add linters to require('lint').linters_by_ft,
