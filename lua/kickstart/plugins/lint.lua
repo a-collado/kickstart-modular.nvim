@@ -14,6 +14,7 @@ return {
         },
         javascript = { 'eslint' },
         typescript = { 'eslint' },
+        ejs = { 'html' },
       }
 
       -- To allow other plugins to add linters to require('lint').linters_by_ft,
