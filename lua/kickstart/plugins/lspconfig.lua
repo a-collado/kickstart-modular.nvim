@@ -206,6 +206,9 @@ return {
         },
       }
 
+      -- Por alguna razon, ccls se configura aparte.
+      require('ccls').setup { lsp = { use_defaults = true } }
+
       -- Ensure the servers and tools above are installed
       --  To check the current status of installed tools and/or manually install
       --  other tools, you can run
@@ -233,7 +236,6 @@ return {
         'pyright',
         'stylua',
         'typescript-language-server',
-        'clangd',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
