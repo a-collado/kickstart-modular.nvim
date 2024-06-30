@@ -206,8 +206,9 @@ return {
         },
       }
 
-      -- Por alguna razon, ccls se configura aparte.
+      -- Por alguna razon, algunos se configuran aparte.
       require('ccls').setup { lsp = { use_defaults = true } }
+      --require('lspconfig').gdscript.setup {}
 
       -- Ensure the servers and tools above are installed
       --  To check the current status of installed tools and/or manually install

@@ -105,7 +105,13 @@ return {
           { name = 'nvim_lsp' },
           { name = 'luasnip' },
           { name = 'path' },
+          { name = 'buffer' },
         },
+      }
+
+      local capabilities = require('cmp_nvim_lsp').default_capabilities()
+      require('lspconfig').gdscript.setup {
+        capabilities = capabilities,
       }
     end,
   },
