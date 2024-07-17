@@ -17,7 +17,7 @@ require('lazy').setup({
   'ranjithshegde/ccls.nvim',
   'normen/vim-pio',
   'habamax/vim-godot',
-  'neoclide/coc.nvim',
+
 
   -- NOTE: Plugins can also be added by using a table,
   -- with the first argument being the link and the following
@@ -40,11 +40,11 @@ require('lazy').setup({
 
   require 'kickstart/plugins/telescope',
 
-  --require 'kickstart/plugins/lspconfig',
+  require 'kickstart/plugins/lspconfig',
 
   require 'kickstart/plugins/conform',
 
-  --require 'kickstart/plugins/cmp',
+  require 'kickstart/plugins/cmp',
 
   require 'kickstart/plugins/tokyonight',
 
